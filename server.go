@@ -25,7 +25,7 @@ func main() {
 	e.GET("/ping", ping)
 
 	// Start serve
-	fmt.Println("start")
+	fmt.Println("v2 start....")
 	e.Logger.Fatal(e.Start("0.0.0.0:1323"))
 }
 
